@@ -1,1 +1,70 @@
-
+body {
+    padding-top:60px;
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB",STHeiti,"Microsoft YaHei","Wenquanyi Micro Hei","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei","WenQuanYi Zen Hei Mono",sans-serif;
+    position: relative;
+}
+#first, #second, #third, #fourth, #fifth {
+    height: 600px;
+}
+#first {
+    background: url(https://blog.mazey.net/wp-content/uploads/2022/03/17705622af81ieohwm0.png) -60% center no-repeat;
+    background-size: 80%;
+}
+#second ,#third, #fourth {
+    padding-top: 20px;
+}
+#fifth {
+    padding-top: 30px;
+}
+div {
+    /*border: 1px solid #ddd;*/
+}
+.logo {
+    width: 100%;
+    height:200px;
+    padding-top: 73px;
+}
+.logo > img {
+    width: 117px;
+}
+.logo + div {
+    width: 100%;
+    height:114px;
+}
+.logo + div > h3 > span {
+    font-size: 27px;
+}
+.logo + div + div {
+    width: 100%;
+    height: 186px;
+    /*padding-top: 50px;*/
+}
+.logo + div + div > img {
+    width: 90px;
+}
+.img-flex, .img-flex-end {
+    flex:1 0 100%;
+    text-align: center;
+}
+.img-flex-end {
+    padding-top: 10px;
+}
+.img-flex-end + div > img {
+    width: 90px;
+    height: 90px;
+}
+.img-flex-end + div {
+    padding-top: 92px;
+}
+.img-flex-end + div > p:first-of-type{
+    margin: 5px 0 0;
+}
+.img-flex-end + div > p:last-of-type{
+    margin: 0;
+}
+.img-flex > img {
+    width: 80%;
+}
+.img-flex-end > img {
+    width: 83%;
+}
